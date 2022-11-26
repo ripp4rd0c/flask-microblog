@@ -15,8 +15,6 @@
             "activityBar.dropBorder": "#b108e4",
             "activityBar.activeBorder": "#b108e4"
         },
-        "activityBar.background": "#112869",
-        "titleBar.activeBackground": "#173993",
-        "titleBar.activeForeground": "#FCFCFE"
+        
     }
 }
