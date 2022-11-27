@@ -25,6 +25,6 @@ def login():
     # check if form is submitted, if it is, validate the form and redirect to index page 
     if form.validate_on_submit():
         flash(f"login requested for {form.username.data}\nremember me = {form.remember_me.data}")
-        return redirect('/index')
+        return redirect(url_for('index'))
 
     return render_template('login.html', form=form, title='Sign In')
